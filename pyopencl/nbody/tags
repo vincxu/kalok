@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Part2	part2.py	/^class Part2(object):$/;"	c
+Part2Main	main_pyglet.py	/^class Part2Main(window.Window):$/;"	c
+Timing	timing.py	/^class Timing(object):$/;"	c
+Vec	glutil.py	/^from vector import Vec$/;"	i
+Vec	main.py	/^from vector import Vec$/;"	i
+Vec	main_pyglet.py	/^from vector import Vec$/;"	i
+Vec	vector.py	/^class Vec(np.ndarray):$/;"	c
+__array_finalize__	vector.py	/^    def __array_finalize__(self, obj):$/;"	m	class:Vec	file:
+__array_wrap__	vector.py	/^    def __array_wrap__(self, out_arr, context=None):$/;"	m	class:Vec	file:
+__call__	timing.py	/^    def __call__(self, func):$/;"	m	class:Timing	file:
+__collector	timing.py	/^    def __collector(self):$/;"	m	class:Timing	file:
+__init__	main.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:window
+__init__	main_pyglet.py	/^    def __init__(self, cle, *args, **kwargs):$/;"	m	class:Part2Main
+__init__	part2.py	/^    def __init__(self, num, dt, *args, **kwargs):$/;"	m	class:Part2
+__init__	timing.py	/^    def __init__(self):$/;"	m	class:Timing
+__new__	vector.py	/^    def __new__(cls, input_array):$/;"	m	class:Vec	file:
+__repr__	vector.py	/^    def __repr__(self):$/;"	m	class:Vec	file:
+__str__	timing.py	/^    def __str__(self):$/;"	m	class:Timing	file:
+add	timing.py	/^    def add(x,y):$/;"	m	class:Timing
+cl	part2.py	/^        import pyopencl as cl$/;"	i
+cl	part2.py	/^import pyopencl as cl$/;"	i
+clinit	part2.py	/^    def clinit(self):$/;"	m	class:Part2
+clock	main_pyglet.py	/^from pyglet import clock$/;"	i
+config	main_pyglet.py	/^    config = gl.Config()$/;"	v	class:Part2Main
+cos	initialize.py	/^    from math import sqrt, sin, cos$/;"	i
+draw	main.py	/^    def draw(self):$/;"	m	class:window
+draw	main_pyglet.py	/^    def draw(self):$/;"	m	class:Part2Main
+draw_axes	glutil.py	/^def draw_axes():$/;"	f
+draw_line	glutil.py	/^def draw_line(v1, v2):$/;"	f
+dt	main.py	/^dt = .001$/;"	v
+dt	main_pyglet.py	/^dt = .01$/;"	v
+example	main_pyglet.py	/^    example = part2.Part2(num, dt, "part2.cl")$/;"	v	class:Part2Main
+execute	part2.py	/^    def execute(self, sub_intervals):$/;"	m	class:Part2
+font	main_pyglet.py	/^from pyglet import font$/;"	i
+fountain	initialize.py	/^def fountain(num):$/;"	f
+fountain_loopy	initialize.py	/^def fountain_loopy(num):$/;"	f
+fountain_np	initialize.py	/^def fountain_np(num):$/;"	f
+get_gl_sharing_context_properties	part2.py	/^        from pyopencl.tools import get_gl_sharing_context_properties$/;"	i
+gl	main_pyglet.py	/^    from pyglet import gl$/;"	i
+glinit	main.py	/^    def glinit(self):$/;"	m	class:window
+glutil	main.py	/^import glutil$/;"	i
+glutil	main_pyglet.py	/^import glutil$/;"	i
+init	glutil.py	/^def init(width, height):$/;"	f
+initialize	main.py	/^import initialize$/;"	i
+initialize	main_pyglet.py	/^import initialize$/;"	i
+lights	glutil.py	/^def lights():$/;"	f
+loadData	part2.py	/^    def loadData(self, pos_vbo, col_vbo, vel):$/;"	m	class:Part2
+loadProgram	part2.py	/^    def loadProgram(self, filename):$/;"	m	class:Part2
+main_loop	main_pyglet.py	/^    def main_loop(self):$/;"	m	class:Part2Main
+math	vector.py	/^import math$/;"	i
+multiply	timing.py	/^    def multiply(x,y):$/;"	m	class:Timing
+np	vector.py	/^import numpy as np$/;"	i
+num	main.py	/^num = 200000$/;"	v
+num	main_pyglet.py	/^num = 200000$/;"	v
+numpy	initialize.py	/^    import numpy$/;"	i
+numpy	part2.py	/^import numpy$/;"	i
+on_click	main.py	/^    def on_click(self, button, state, x, y):$/;"	m	class:window
+on_key	main.py	/^    def on_key(self, *args):$/;"	m	class:window
+on_mouse_drag	main_pyglet.py	/^    def on_mouse_drag(self, x, y, dx, dy, buttons, modifiers):$/;"	m	class:Part2Main
+on_mouse_motion	main.py	/^    def on_mouse_motion(self, x, y):$/;"	m	class:window
+p2	main.py	/^    p2 = window()$/;"	v
+p2	main_pyglet.py	/^    p2 = Part2Main(example, resizable=True, config=config)$/;"	v	class:Part2Main
+part2	main.py	/^import part2$/;"	i
+part2	main_pyglet.py	/^import part2$/;"	i
+props	vector.py	/^    props = ['x', 'y', 'z', 'w']$/;"	v	class:Vec
+random	initialize.py	/^    import random$/;"	i
+render	part2.py	/^    def render(self):$/;"	m	class:Part2
+set3d	main_pyglet.py	/^    def set3d(self):$/;"	m	class:Part2Main
+sin	initialize.py	/^    from math import sqrt, sin, cos$/;"	i
+sqrt	initialize.py	/^    from math import sqrt, sin, cos$/;"	i
+sys	main.py	/^import sys$/;"	i
+sys	part2.py	/^        import sys $/;"	i
+sys	part2.py	/^import sys$/;"	i
+time	timing.py	/^import time$/;"	i
+timer	main.py	/^    def timer(self, t):$/;"	m	class:window
+timing	initialize.py	/^import timing$/;"	i
+timing	part2.py	/^import timing$/;"	i
+timings	initialize.py	/^timings = timing.Timing()$/;"	v
+timings	part2.py	/^timings = timing.Timing()$/;"	v
+timings	timing.py	/^    timings = Timing()$/;"	v	class:Timing
+unset3d	main_pyglet.py	/^    def unset3d(self):$/;"	m	class:Part2Main
+update	main_pyglet.py	/^    def update(self):$/;"	m	class:Part2Main
+vbo	initialize.py	/^    from OpenGL.arrays import vbo $/;"	i
+window	main.py	/^class window(object):$/;"	c
+window	main_pyglet.py	/^from pyglet import window$/;"	i
+wrapper	timing.py	/^        def wrapper(*arg, **kwargs):$/;"	f	function:Timing.__call__
